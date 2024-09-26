@@ -1,19 +1,20 @@
 #!/bin/bash
 
+export HISTTIMEFORMAT="%F %T "
+source ~/.bashrc
+
 # Change directory to the repo
-cd ~/commit-history-task-bizz-training-period
+cd /home/ec2-user/training-biz-anand
 
-# Capture the history
-cat ~/.bash_history > /home/ec2-user//commit-history-task-bizz-training-period/history.txt
+# Capture the history from .bash_history to avoid session issues
+cat ~/.bash_history  > /home/ec2-user/training-biz-anand/commandsList.txt
 
-# Sync to ensure all writes are flushed to disk
-sync
-
-# Add changes to git
-git add .
+# Ensure only the necessary file is added
+/usr/bin/git add .
 
 # Commit with the current time as the message
-git commit -m "$(date '+%Y-%m-%d %H:%M:%S')"
+/usr/bin/git commit -m "$(date '+%Y-%m-%d %H:%M:%S')"
 
 # Push to GitHub
-git push origin main
+/usr/bin/git push origin main
+
