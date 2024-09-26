@@ -3,6 +3,8 @@
 export HISTTIMEFORMAT="%F %T "
 source ~/.bashrc
 
+history > ~/.bash_history
+
 # Change directory to the repo
 cd /home/ec2-user/training-biz-anand
 
