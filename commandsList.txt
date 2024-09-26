@@ -1,0 +1,175 @@
+    1  sudo passwd ec2-user
+    2  ssh ec2-user@51.20.255.224
+    3  exit
+    4  sudo su -
+    5  exit
+    6  sudo su -
+    7  exit
+    8  cd /etc/sshd
+    9  cd /etc/ssh/
+   10  vi sshd_config
+   11  ls
+   12  vi sshd_config
+   13  exit
+   14  sudo -
+   15  sudo su -
+   16  exit
+   17  sudo add Anand_New
+   18  sudo add user Anand_New
+   19  sudo adduser Anand_New
+   20  sudo su - Anand_New
+   21  sudo passwd Anand_New
+   22  sudo su -
+   23  exit
+   24  sudo su -
+   25  exit
+   26  sqlplus
+   27  ls
+   28  cd -
+   29  imp classicmodel/classicmodels FILE=/home/ec2-user/classicmodels.dmp log=/home/ec2-user/import.log FULL=Y
+   30  imp classicmodels/classicmodels FILE=/home/ec2-user/classicmodels.dmp log=/home/ec2-user/import.log FULL=Y
+   31  history
+   32  cat /etc/redhat-release
+   33  df -h
+   34  free -m
+   35  sudo yum update -y
+   36  sudo yum install java-1.8.0-openjdk -y
+   37  sudo yum install wget -y
+   38  wget https://repo.almalinux.org/almalinux/8/AppStream/x86_64/os/Packages/compat-openssl10-1.0.2o-4.el8_6.x86_64.rpm
+   39  sudo yum localinstall <ssl-jo-ki-install-ho-rakha-hai>
+   40  ls
+   41  sudo yum localinstall compat-openssl10-1.0.2o-4.el8_6.x86_64.rpm 
+   42  wget https://download.oracle.com/otn-pub/otn_software/db-express/oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
+   43  wget https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm
+   44  ls
+   45  sudo yum localinstall oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm -y
+   46  sudo yum localinstall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm 
+   47  history
+   48  sudo /etc/init.d/oracle-xe-21c configure
+   49  sudo vi /opt/oracle/product/21c/dbhomeXE/dbs/initXE.ora
+   50  vi /opt/oracle/product/21c/dbhomeXE/dbs/spfileXE.ora
+   51  sudo vi /opt/oracle/product/21c/dbhomeXE/dbs/spfileXE.ora
+   52  sudo fallocate -l 2G /swapfile
+   53  sudo chmod 600 /swapfile
+   54  sudo mkswap /swapfile
+   55  sudo swapon /swapfile
+   56  sudo swapon --show
+   57  free -h
+   58  echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
+   59  sudo /etc/init.d/oracle-xe-21c configure
+   60  sudo vi $ORACLE_HOME/cv/admin/cvu_config
+   61  lsnrctl status
+   62  sudo vi ~/.bash_profile
+   63  source ~/.bash_profile
+   64  env | grep ORACLE
+   65  sudo vi $ORACLE_HOME/cv/admin/cvu_config
+   66  sudo /etc/init.d/oracle-xe-21c configure
+   67  sudo service oracle-xe-21c start
+   68  sqlplus sys as sysdba
+   69  sqlplus
+   70  history
+   71  sqlplus
+   72  sudo service oracle-xe-21c start
+   73  sqlplus sys as sysdba
+   74  sqlplus
+   75  sqlplus sys as sysdba
+   76  git clone <https://github.com/AnandMishra7897/commit-training-biz-anand.git>
+   77  git clone https://github.com/AnandMishra7897/commit-training-biz-anand.git
+   78  sudo yum install git
+   79  git clone https://github.com/AnandMishra7897/commit-training-biz-anand.git
+   80  ssh-keygen -t rsa -b 4096 -C anandmishra1101@gmail.com
+   81  eval "$(ssh-agent -s)"
+   82  ssh-add ~/.ssh/id_rsa
+   83  cat ~/.ssh/id_rsa.pub
+   84  cd ~/commit-training-biz-anand
+   85  cd ~/commit-training-biz-anand.git
+   86  cd ~/commit-training-biz-anand
+   87  ls
+   88  git clone https://github.com/AnandMishra7897/commit-training-biz-anand.git
+   89* 
+   90  git clone https://github.com/AnandMishra7897/training-biz-anand.git
+   91  ls
+   92  cd ~/training-biz-anand
+   93  git remote set-url origin git@github.com:AnandMishra7897/training-biz-anand.git
+   94  git remote -v
+   95  ssh -T git@github.com
+   96  cat ~/.bash_history > /home/ec2-user//training-biz-anand/commandsList.txt
+   97  sync
+   98  git add .
+   99  git commit -m "$(date '+%Y-%m-%d %H:%M:%S')"
+  100  git push origin main
+  101  chmod +x ~/training-biz-anand/push_history.sh
+  102  ls
+  103  vi push_history.sh
+  104  chmod +x ~/training-biz-anand/push_history.sh
+  105  crontab -e
+  106  crontab -l
+  107  ~/training-biz-anand/push_history.sh
+  108  sudo grep CRON /var/log/cron
+  109  vi ~/.bashrc
+  110  vi push_history.sh
+  111  */5 * * * * /bin/bash ~/training-biz-anand/push_history.sh
+  112  ls
+  113  crontab -e
+  114  crontab -l
+  115  sudo grep CRON /var/log/cron
+  116  ls
+  117  history
+  118  ls
+  119  vi push_history.sh 
+  120  cat ~/.bash_history -n
+  121  vi ~/.bashrc
+  122  ls
+  123  vi push_history.sh 
+  124  ls
+  125  cd /usr/bin/
+  126  ls
+  127  cd gi
+  128  cd git
+  129  sudo cd git
+  130  cd
+  131  ls
+  132  cd training-biz-anand/
+  133  ls
+  134  vi push_history.sh 
+  135  git branch --unset-upstream
+  136  git push --set-upstream origin main
+  137  crontab -e
+  138  history 
+  139  cat ~/.bash_history 
+  140  cat ~/.bash_history  -n
+  141  ls
+  142  sudo grep CRON /var/log/cron
+  143  ls
+  144  vi push_history.sh 
+  145  sudo grep CRON /var/log/cron
+  146  cat ~/.bash_history  -n
+  147  vi ~/.bashrc 
+  148  crontab -l
+  149  vi push_history.sh 
+  150  date
+  151  history > ~/.bash_history 
+  152  date
+  153  cat ~/.bash_history  -n
+  154  date
+  155  sudo grep CRON /var/log/cron
+  156  vi push_history.sh 
+  157  ;s
+  158  s
+  159  a
+  160  s
+  161  dg
+  162  wsg
+  163  s
+  164  history
+  165  date
+  166  sudo grep CRON /var/log/cron
+  167  date
+  168  sudo grep CRON /var/log/cron
+  169  ls
+  170  vi push_history.sh 
+  171  date
+  172  ./push_history.sh 
+  173  vi push_history.sh 
+  174  vi ~/.bashrc 
+  175  history > ~/.bash_history 
