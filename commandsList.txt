@@ -173,3 +173,105 @@
   173  vi push_history.sh 
   174  vi ~/.bashrc 
   175  history > ~/.bash_history 
+git clone <https://github.com/AnandMishra7897/commit-training-biz-anand.git>
+git clone https://github.com/AnandMishra7897/commit-training-biz-anand.git
+sudo yum install git
+git clone https://github.com/AnandMishra7897/commit-training-biz-anand.git
+ssh-keygen -t rsa -b 4096 -C anandmishra1101@gmail.com
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
+cat ~/.ssh/id_rsa.pub
+cd ~/commit-training-biz-anand
+cd ~/commit-training-biz-anand.git
+cd ~/commit-training-biz-anand
+ls
+git clone https://github.com/AnandMishra7897/commit-training-biz-anand.git
+
+git clone https://github.com/AnandMishra7897/training-biz-anand.git
+ls
+cd ~/training-biz-anand
+git remote set-url origin git@github.com:AnandMishra7897/training-biz-anand.git
+git remote -v
+ssh -T git@github.com
+cat ~/.bash_history > /home/ec2-user//training-biz-anand/commandsList.txt
+sync
+git add .
+git commit -m "$(date '+%Y-%m-%d %H:%M:%S')"
+git push origin main
+chmod +x ~/training-biz-anand/push_history.sh
+ls
+vi push_history.sh
+chmod +x ~/training-biz-anand/push_history.sh
+crontab -e
+crontab -l
+~/training-biz-anand/push_history.sh
+sudo grep CRON /var/log/cron
+vi ~/.bashrc
+vi push_history.sh
+*/5 * * * * /bin/bash ~/training-biz-anand/push_history.sh
+ls
+crontab -e
+crontab -l
+sudo grep CRON /var/log/cron
+ls
+history
+ls
+vi push_history.sh 
+cat ~/.bash_history -n
+vi ~/.bashrc
+ls
+vi push_history.sh 
+ls
+cd /usr/bin/
+ls
+cd gi
+cd git
+sudo cd git
+cd
+ls
+cd training-biz-anand/
+ls
+vi push_history.sh 
+git branch --unset-upstream
+git push --set-upstream origin main
+crontab -e
+history 
+cat ~/.bash_history 
+cat ~/.bash_history  -n
+ls
+sudo grep CRON /var/log/cron
+ls
+vi push_history.sh 
+sudo grep CRON /var/log/cron
+cat ~/.bash_history  -n
+vi ~/.bashrc 
+crontab -l
+vi push_history.sh 
+date
+history > ~/.bash_history 
+date
+cat ~/.bash_history  -n
+date
+sudo grep CRON /var/log/cron
+vi push_history.sh 
+;s
+s
+a
+s
+dg
+wsg
+s
+history
+date
+sudo grep CRON /var/log/cron
+date
+sudo grep CRON /var/log/cron
+ls
+vi push_history.sh 
+date
+./push_history.sh 
+vi push_history.sh 
+vi ~/.bashrc 
+history > ~/.bash_history 
+vi ~/.bashrc
+~/.bash_profile
