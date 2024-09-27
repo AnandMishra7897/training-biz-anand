@@ -343,3 +343,4 @@ crontab -l
 vi ~/.bashrc
 free -g
 du -h
+df -ah
