@@ -361,3 +361,4 @@ zipinfo archive.zip
 rm output.txt
 rm archive.zip
 ls
+logout
