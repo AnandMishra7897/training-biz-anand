@@ -345,3 +345,4 @@ free -g
 du -h
 df -ah
 top
+uname -e
