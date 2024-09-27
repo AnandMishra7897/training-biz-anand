@@ -20,4 +20,4 @@ cat ~/.bash_history  > /home/ec2-user/training-biz-anand/commandsList.txt
 # Push to GitHub
 /usr/bin/git push origin main
 
-#hi
+echo "$(date)" > ~/output.txt
