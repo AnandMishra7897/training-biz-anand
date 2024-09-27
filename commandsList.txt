@@ -318,3 +318,7 @@ tail ~/.bash_history
 crontab -e
 date +"%M-%H"
 date +"%S-%M-%H"
+echo hello
+tail ~/.bash_history 
+date +"%S-%M-%H"
+date
