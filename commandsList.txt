@@ -329,3 +329,8 @@ grep -r st
 pwd
 cd training-biz-anand/
 vi push_history.sh 
+crontab -e
+cd ..
+ls
+cat output.txt 
+date
