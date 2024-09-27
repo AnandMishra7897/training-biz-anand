@@ -305,3 +305,7 @@ crontab -e
 vi push_history.sh
 ls
 ls -l
+chmod +x ~/training-biz-anand/push_history.sh
+ls -l
+cd training-biz-anand
+ls
