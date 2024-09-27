@@ -314,3 +314,4 @@ vi push_history.sh
 crontab -e
 tail ~/.bash_history 
 date +"%M-%H"
+tail ~/.bash_history 
