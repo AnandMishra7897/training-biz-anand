@@ -351,3 +351,4 @@ uname --help
 uname -n
 uname -a
 hostname
+crontab -e
