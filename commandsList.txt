@@ -283,3 +283,5 @@ cat ~/bash-history
 cat ~/.bashhistory
 cat ~/.bash_history
 cat ~/bash_history | grep "cron"
+cat ~/commandsList.txt | grep "cron" 
+ls
