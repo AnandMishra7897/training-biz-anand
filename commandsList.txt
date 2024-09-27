@@ -363,3 +363,6 @@ rm archive.zip
 ls
 logout
 ps -ef
+clear
+ls
+more ~/.bash_history
