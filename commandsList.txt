@@ -337,3 +337,4 @@ date
 cat output.txt 
 vi push_history.sh 
 vi training-biz-anand/push_history.sh 
+vi ~/.bash_history
