@@ -344,3 +344,4 @@ vi ~/.bashrc
 free -g
 du -h
 df -ah
+top
