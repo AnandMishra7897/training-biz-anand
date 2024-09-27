@@ -322,3 +322,5 @@ echo hello
 tail ~/.bash_history 
 date +"%S-%M-%H"
 date
+tail /var/log/cron
+sudo tail /var/log/cron
