@@ -277,3 +277,4 @@ vi ~/.bashrc
 ~/.bash_profile
 history
 vi ~/.bashrc 
+vi push_history.sh 
