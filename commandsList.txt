@@ -370,3 +370,6 @@ clear
 tail ~/.bash_history
 head ~/.bash_history
 crontab -e
+ls
+vi Test_text.txt
+grep -i "Hi" Test_text.txt
