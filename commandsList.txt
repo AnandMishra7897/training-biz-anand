@@ -350,3 +350,4 @@ uname
 uname --help
 uname -n
 uname -a
+hostname
