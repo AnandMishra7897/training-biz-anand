@@ -278,3 +278,4 @@ vi ~/.bashrc
 history
 vi ~/.bashrc 
 vi push_history.sh 
+sudo grep CRON /var/log/cron
