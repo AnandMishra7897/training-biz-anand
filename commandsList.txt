@@ -366,3 +366,6 @@ ps -ef
 clear
 ls
 more ~/.bash_history
+clear
+tail ~/.bash_history
+head ~/.bash_history
