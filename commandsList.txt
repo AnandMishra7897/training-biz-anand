@@ -334,3 +334,5 @@ cd ..
 ls
 cat output.txt 
 date
+cat output.txt 
+vi push_history.sh 
