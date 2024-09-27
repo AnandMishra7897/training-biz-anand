@@ -294,3 +294,4 @@ cat training-biz-anand/commandsList.txt | grep "cron"
 ls
 rm test_text.txt
 ls
+scp test_text.txt ec2-user@13.61.1.24:/home/ec2-user/
