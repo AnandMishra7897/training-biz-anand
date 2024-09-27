@@ -282,3 +282,4 @@ sudo grep CRON /var/log/cron
 cat ~/bash-history
 cat ~/.bashhistory
 cat ~/.bash_history
+cat ~/bash_history | grep "cron"
