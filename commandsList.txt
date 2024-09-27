@@ -324,3 +324,5 @@ date +"%S-%M-%H"
 date
 tail /var/log/cron
 sudo tail /var/log/cron
+cd ..
+grep -r st
