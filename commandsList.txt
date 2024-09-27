@@ -346,3 +346,6 @@ du -h
 df -ah
 top
 uname -e
+uname
+uname --help
+uname -n
