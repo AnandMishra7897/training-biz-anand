@@ -292,3 +292,5 @@ ls
 cat ~/training-biz-anand/commandsList.txt 
 cat training-biz-anand/commandsList.txt | grep "cron" 
 ls
+rm test_text.txt
+ls
