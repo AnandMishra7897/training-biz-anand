@@ -341,3 +341,5 @@ vi ~/.bash_history
 clear
 crontab -l
 vi ~/.bashrc
+free -g
+du -h
