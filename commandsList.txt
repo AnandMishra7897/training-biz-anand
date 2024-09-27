@@ -275,3 +275,4 @@ vi ~/.bashrc
 history > ~/.bash_history 
 vi ~/.bashrc
 ~/.bash_profile
+history
