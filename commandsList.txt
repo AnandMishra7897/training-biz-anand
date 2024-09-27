@@ -352,3 +352,12 @@ uname -n
 uname -a
 hostname
 crontab -e
+ls
+zip output.txt
+zip -r archive.zip output.txt
+ls
+gunzip archive.zip
+zipinfo archive.zip
+rm output.txt
+rm archive.zip
+ls
