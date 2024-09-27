@@ -362,3 +362,4 @@ rm output.txt
 rm archive.zip
 ls
 logout
+ps -ef
