@@ -382,3 +382,5 @@ ls -a
 ls -a ~ | grep ".profile"
 vi .bash_profile
 vi .bash_history 
+ftp
+sudo yum install ftp
