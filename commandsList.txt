@@ -373,3 +373,9 @@ crontab -e
 ls
 vi Test_text.txt
 grep -i "Hi" Test_text.txt
+ls -a
+pwd
+cd 
+pwd
+ls
+ls -a
