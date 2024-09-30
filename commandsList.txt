@@ -389,3 +389,4 @@ ls
 echo "hello World"
 echo "hello \nWorld"
 echo -e "hello \nWorld"
+ping -c 4 google.com
