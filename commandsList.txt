@@ -380,3 +380,5 @@ pwd
 ls
 ls -a
 ls -a ~ | grep ".profile"
+vi .bash_profile
+vi .bash_history 
