@@ -384,3 +384,5 @@ vi .bash_profile
 vi .bash_history 
 ftp
 sudo yum install ftp
+ftp 51.20.78.223
+ls
