@@ -393,3 +393,8 @@ ping -c 4 google.com
 telnet example.com 23
 telnet smtp.example.com 25
 telnet example.com 80
+nslookup
+nslookup google.com
+nslookup google.com 172.31.0.2
+nslookup 8.8.8.8
+nslookup google.com 8.8.8.8
