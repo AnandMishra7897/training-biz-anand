@@ -390,3 +390,6 @@ echo "hello World"
 echo "hello \nWorld"
 echo -e "hello \nWorld"
 ping -c 4 google.com
+telnet example.com 23
+telnet smtp.example.com 25
+telnet example.com 80
