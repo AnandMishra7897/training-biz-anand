@@ -386,3 +386,6 @@ ftp
 sudo yum install ftp
 ftp 51.20.78.223
 ls
+echo "hello World"
+echo "hello \nWorld"
+echo -e "hello \nWorld"
