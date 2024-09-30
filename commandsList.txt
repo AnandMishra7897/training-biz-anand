@@ -379,3 +379,4 @@ cd
 pwd
 ls
 ls -a
+ls -a ~ | grep ".profile"
