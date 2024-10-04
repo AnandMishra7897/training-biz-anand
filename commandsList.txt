@@ -401,3 +401,4 @@ nslookup google.com 8.8.8.8
 ifconfig
 sudo yum install -y s-nail
 sudo yum install -y sysstat
+sudo vi /etc/s-nail.rc
