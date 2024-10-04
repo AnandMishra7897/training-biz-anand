@@ -405,3 +405,5 @@ sudo vi /etc/s-nail.rc
 sudo vi system_report_smail.sh
 sudo chmod +x /home/ec2-user/system_report_smail.sh
 ./system_report_smail.sh
+sudo vi system_report_smail.sh
+crontab -e
