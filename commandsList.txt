@@ -409,3 +409,5 @@ sudo vi system_report_smail.sh
 crontab -e
 pwd
 ls
+scp payment.csv ec2-user@16.171.114.221:/home/ec2-user/
+ls
