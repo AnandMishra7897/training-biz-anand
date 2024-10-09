@@ -421,3 +421,6 @@ ls
 vi payment.csv
 cat payment.csv
 clear
+vi payment.csv
+rm payment.csv
+vi payment.csv
