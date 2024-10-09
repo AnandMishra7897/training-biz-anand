@@ -415,3 +415,4 @@ awk -F, '{sub("-.*","\"",$NF)}1' OFS="," payment.csv
 awk -F, '{sub(" .*","\"",$NF)}1' OFS="," payment.csv
 sed 's/\(.*\) .*/\1"/' payment.csv
 ls
+rm payment.csv
