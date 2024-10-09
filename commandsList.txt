@@ -411,3 +411,7 @@ pwd
 ls
 scp payment.csv ec2-user@16.171.114.221:/home/ec2-user/
 ls
+awk -F, '{sub("-.*","\"",$NF)}1' OFS="," payment.csv
+awk -F, '{sub(" .*","\"",$NF)}1' OFS="," payment.csv
+sed 's/\(.*\) .*/\1"/' payment.csv
+ls
