@@ -416,3 +416,7 @@ awk -F, '{sub(" .*","\"",$NF)}1' OFS="," payment.csv
 sed 's/\(.*\) .*/\1"/' payment.csv
 ls
 rm payment.csv
+sed 's/\([0-9]\{4\}-[0-9]\{2\}-[0-9]\{2\}\) 00:00:00/\1/' payment.csv > payment.csv
+ls
+vi payment.csv
+cat payment.csv
