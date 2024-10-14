@@ -438,3 +438,10 @@ du -af
 df- ah
 pwd
 du -h
+ls
+cd 
+ls
+du -h
+du -h --sort=-%mem
+ls -l --sort=size
+ls -lhS
