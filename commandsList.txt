@@ -446,3 +446,5 @@ du -h --sort=-%mem
 ls -l --sort=size
 ls -lhS
 find . -type f -atime +365 -print
+find . -type f -atime +365 -print | zip test.zip -@
+ls
