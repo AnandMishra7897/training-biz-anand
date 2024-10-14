@@ -424,3 +424,7 @@ clear
 vi payment.csv
 rm payment.csv
 vi payment.csv
+find ~ -mtime -30
+ls
+mkdir Test_folder
+ls
