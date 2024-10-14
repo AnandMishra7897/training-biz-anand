@@ -428,3 +428,13 @@ find ~ -mtime -30
 ls
 mkdir Test_folder
 ls
+find . -mtime -30 -type f -exec cp {} Test_folder/ \;
+ls
+cd Test_folder
+ls
+clear
+du -f
+du -af
+df- ah
+pwd
+du -h
